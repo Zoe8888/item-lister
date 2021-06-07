@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(156, 154, 154);
+  color: white;
+}
+
+#main-header {
+  background-color: #43aa8b;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3% 15vw;
+  width: 100%;
+  height: 8vw;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.search-bar {
+  width: 300px;
+}
+
+.form-control {
+  display: block;
+  padding: 0.5rem 0.75rem;
+}
+
+.container {
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: solid 1px rgb(214, 214, 214);
+  padding: 1%;
+  width: 70vw;
+}
+
+.title {
+  padding: 1% 0;
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn.btn-dark {
+  font-size: 1rem;
+  color: gray;
+  margin-left: 1%;
+  padding: 1px 2%;
+}
+
+.btn.btn-dark:hover {
+  color: white;
+  background: #43aa8b;
+}
+
+.list-group-item {
+  border: solid 1px rgb(214, 214, 214);
+  list-style: none;
+  padding: 20px;
+}
+
+#addForm {
+  padding-bottom: 3%;
+}
+
+.btn.btn-danger.btn-sm.float-right.delete {
+  position: relative;
+  float: right;
+  padding: 6px 10px;
+  background: white;
+  color: gray;
+  border-radius: 5px;
+}
+
+.btn.btn-danger.btn-sm.float-right.delete:hover {
+  color: white;
+  background: #43aa8b;
+  outline: none;
+}
